@@ -2,7 +2,7 @@
 Pastelería Delyra
 
 ## 🌐 Proyecto hospedado
-URL del proyecto: https://github.com/mhallasic-art/proyectoindividualmisaelpasteleria
+URL del proyecto: https://github.com/mhallasic-art/proyectoindividualmisaelpasteleria/index.html
 
 ## 🧑‍🦱Integrantes
 - Hallasi Cusi Misael Santiago
