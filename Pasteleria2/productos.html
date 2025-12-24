@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="ubicacion.html">¿Donde nos encontramos?</a>
+  </nav>
+</header>
+
+<h2>Todos los pasteles</h2>
+
+<div class="productos">
+    
+    <div class="producto" data-nombre="Pastel estelar" data-precio="45">
+      <img src="img/pastel1.png" alt="Pastel estelar">
+      <h3>Pastel estelar</h3>
+      <p>S/45.00</p>
+      <p>Mediano (Para 25 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+    <div class="producto" data-nombre="Pastel del Castillo de Mickey" data-precio="50">
+      <img src="img/pastel2.png" alt="Pastel del Castillo de Mickey">
+      <h3>Pastel del Castillo de Mickey</h3>
+      <p>S/50.00</p>
+      <p>Grande (Para 30 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+    <div class="producto" data-nombre="Pastel de Plants vs. Zombies" data-precio="55">
+      <img src="img/pastel3.png" alt="Pastel de Plants vs. Zombies">
+      <h3>Pastel de Plants vs. Zombies</h3>
+      <p>S/55.00</p>
+      <p>Grande (Para 30 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+    <div class="producto" data-nombre="Pastel de Pilsen Callao" data-precio="30">
+      <img src="img/pastel4.png" alt="Pastel de Pilsen Callao">
+      <h3>Pastel de Pilsen Callao</h3>
+      <p>S/30.00</p>
+      <p>Pequeño (Para 15 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+    <div class="producto" data-nombre="Pastel de caricatura" data-precio="50">
+      <img src="img/pastel5.png" alt="Pastel de caricatura">
+      <h3>Pastel de caricatura</h3>
+      <p>S/50.00</p>
+      <p>Mediano (Para 20 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+    <div class="producto" data-nombre="Pastel de 15 años" data-precio="45">
+      <img src="img/pastel6.png" alt="Pastel de 15 años">
+      <h3>Pastel de 15 años</h3>
+      <p>S/45.00</p>
+      <p>Mediano (Para 20 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+    <div class="producto" data-nombre="Pastel de bodas" data-precio="45">
+      <img src="img/pastel7.png" alt="Pastel de bodas">
+      <h3>Pastel de bodas</h3>
+      <p>S/45.00</p>
+      <p>Mediano (Para 20 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+    <div class="producto" data-nombre="Pastel de fútbol" data-precio="35">
+      <img src="img/pastel8.png" alt="Pastel de fútbol">
+      <h3>Pastel de fútbol</h3>
+      <p>S/35.00</p>
+      <p>Pequeño (Para 15 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+    <div class="producto" data-nombre="Pastel simple" data-precio="30">
+      <img src="img/pastel9.png" alt="Pastel simple">
+      <h3>Pastel simple</h3>
+      <p>S/30.00</p>
+      <p>Pequeño (Para 12 personas)</p>
+      <button class="btn-comprar">Realizar una compra</button>
+    </div>
+
+  </div>
+
+  <!-- Resumen de compra -->
+<div id="resumenCompra" style="display:none; margin:30px; text-align:center;">
+  
+  <img id="imgResumen" src="" alt="" style="max-width:250px; border-radius:15px;">
+  
+  <h3 id="textoPastel"></h3>
+  <p id="precioPastel"></p>
+
+  <h4>¿Cómo desea recibir su pedido?</h4>
+
+  <button id="btnRecojo">Recojo en tienda</button>
+  <button id="btnDelivery">Delivery</button>
+
+  <p id="textoPago" style="margin-top:20px; font-weight:bold;"></p>
+</div>
+
+  <footer class="text-center">
+  <p>© 2025 Pastelería Delyra - Eva Hallasi</p>
+</footer>
+
+<script src="productos.js"></script>
+</body>
+</html>

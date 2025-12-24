@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Ubicación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="ubicacion.html">¿Donde nos encontramos?</a>
+  </nav>
+</header>
+
+<h2>Ubicación de Pastelería Delyra</h2>
+
+<!-- Selección de lugar -->
+<div style="text-align:center; margin:20px;">
+  <label for="lugar" class="texto-ubicacion">
+  <strong>¿Desde dónde vienes?</strong>
+</label>
+<br><br>
+  <select id="lugar">
+    <option value="">Seleccione un lugar</option>
+    <option value="cercado">Cercado</option>
+    <option value="yanahuara">Yanahuara</option>
+    <option value="cayma">Cayma</option>
+    <option value="paucarpata">Paucarpata</option>
+    <option value="mariano_melgar">Mariano Melgar</option>
+    <option value="socabaya">Socabaya</option>
+    <option value="miraflores">Miraflores</option>
+    <option value="pachacutec">Pachacútec</option>
+    <option value="bustamante_y_rivero">Bustamente y Rivero</option>
+    <option value="miguel_grau">Miguel Grau</option>
+  </select>
+</div>
+
+<!-- IMAGEN -->
+<div class="contenedor-imagen">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d956.7211788549595!2d-71.49961634008746!3d-16.43068038770888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1766523510990!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- BOTÓN -->
+<button id="btnTiempo" class="boton-ubicacion" type="button">
+  ¿En cuánto tiempo puedo llegar?
+</button>
+
+<!-- TEXTO -->
+<div id="resultadoTiempo" style="display:none;">
+  <p id="tiempoAuto"></p>
+  <p id="tiempoCaminando"></p>
+</div>
+
+<footer class="text-center">
+  <p>© 2025 Pastelería Delyra - Eva Hallasi</p>
+</footer>
+
+<script src="ubicacion.js"></script>
+</body>
+</html>
